@@ -1,0 +1,39 @@
+* {
+	font-family: 'KoHo', sans-serif;
+}
+.background-img {
+	background-image: url("IMG/milkyWay.jpeg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 100vh;
+	display: block;
+}
+.quote {
+	display: block;
+	position: absolute;
+	width: 90%;
+	margin: 50% 5%;
+}
+h1, p {
+	color: #fff;
+	letter-spacing: 2px;
+	opacity: 0.8;
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-align: right;
+	padding-top: 21px;
+}
+#particles-js {
+	height: 100vh;
+}
+@media (min-width: 700px) {
+	.quote {
+	width: 50%;
+	margin: 25%;
+	margin-bottom: 0%;
+}
+}
